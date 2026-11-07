@@ -1,0 +1,75 @@
+.App {
+  font-family: Arial, sans-serif;
+  width: 40%;
+  margin: 20px auto;
+  padding: 20px 20px 40px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px 20px 30px 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button-add,
+.button-submit {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s linear;
+}
+.button-delete {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: red;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s linear;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:focus {
+  outline: none;
+}
+
+p {
+  margin-bottom: 8px;
+  text-align: justify;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.div-add-note {
+  padding-right: 20px;
+}
